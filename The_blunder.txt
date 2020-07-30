@@ -1,0 +1,2 @@
+SELECT round(avg(Salary) - avg(replace(salary,'0',''))) + 1
+FROM EMPLOYEES
